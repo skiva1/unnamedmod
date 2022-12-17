@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "unnamed:blocks/cardboard_box_bottom",
+    "up": "unnamed:blocks/cardboard_box_top",
+    "north": "unnamed:blocks/cardboard_box_sides",
+    "east": "unnamed:blocks/cardboard_box_bottom",
+    "south": "unnamed:blocks/cardboard_box_sides",
+    "west": "unnamed:blocks/cardboard_box_bottom",
+    "particle": "unnamed:blocks/cardboard_box_bottom"
+  },
+  "render_type": "solid"
+}

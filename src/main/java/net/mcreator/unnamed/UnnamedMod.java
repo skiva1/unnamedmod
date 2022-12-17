@@ -29,6 +29,9 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.unnamed.init.UnnamedModItems;
+import net.mcreator.unnamed.init.UnnamedModBlocks;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -45,6 +48,9 @@ public class UnnamedMod {
 		MinecraftForge.EVENT_BUS.register(this);
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		UnnamedModBlocks.REGISTRY.register(bus);
+		UnnamedModItems.REGISTRY.register(bus);
 
 	}
 
