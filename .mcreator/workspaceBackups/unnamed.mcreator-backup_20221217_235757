@@ -1,0 +1,68 @@
+{
+  "mod_elements": [
+    {
+      "name": "Crate",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crate"
+    },
+    {
+      "name": "Daddy",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "daddy"
+    },
+    {
+      "name": "SolarSand",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_sand"
+    },
+    {
+      "name": "SolarDesert",
+      "type": "biome",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_desert"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.unnamed.crate": "Crate",
+      "biome.unnamed.solar_desert": "Solar Desert",
+      "block.unnamed.solar_sand": "Solar Sand",
+      "item.unnamed.daddy": "Daddy"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "unnamed",
+    "modName": "unnamed",
+    "version": "1.0.0",
+    "author": "User, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.unnamed",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

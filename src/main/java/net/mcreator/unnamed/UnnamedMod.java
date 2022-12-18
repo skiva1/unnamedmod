@@ -30,7 +30,9 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.unnamed.init.UnnamedModItems;
+import net.mcreator.unnamed.init.UnnamedModEntities;
 import net.mcreator.unnamed.init.UnnamedModBlocks;
+import net.mcreator.unnamed.init.UnnamedModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -51,7 +53,9 @@ public class UnnamedMod {
 
 		UnnamedModBlocks.REGISTRY.register(bus);
 		UnnamedModItems.REGISTRY.register(bus);
+		UnnamedModEntities.REGISTRY.register(bus);
 
+		UnnamedModBiomes.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

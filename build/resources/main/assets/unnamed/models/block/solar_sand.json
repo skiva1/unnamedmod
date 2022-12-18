@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "unnamed:blocks/sand2",
+    "up": "unnamed:blocks/sand2",
+    "north": "unnamed:blocks/sand2",
+    "east": "unnamed:blocks/sand2",
+    "south": "unnamed:blocks/sand2",
+    "west": "unnamed:blocks/sand2",
+    "particle": "unnamed:blocks/sand2"
+  },
+  "render_type": "solid"
+}

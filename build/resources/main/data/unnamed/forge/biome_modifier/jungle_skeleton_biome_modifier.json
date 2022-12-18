@@ -1,0 +1,14 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "bamboo_jungle",
+    "sparse_jungle",
+    "jungle"
+  ],
+  "spawners": {
+    "type": "unnamed:jungle_skeleton",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

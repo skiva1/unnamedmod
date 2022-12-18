@@ -1,4 +1,8 @@
 {
   "block.unnamed.crate": "Crate",
-  "item.unnamed.daddy": "Daddy"
+  "biome.unnamed.solar_desert": "Solar Desert",
+  "block.unnamed.solar_sand": "Solar Sand",
+  "item.unnamed.daddy": "Daddy",
+  "entity.unnamed.jungle_skeleton": "Jungle Skeleton",
+  "item.unnamed.jungle_skeleton_spawn_egg": "Jungle Skeleton Spawn Egg"
 }
